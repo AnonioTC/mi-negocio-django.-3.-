@@ -1,0 +1,58 @@
+:root {
+    --color-primary: #______;
+    --color-secondary: #______;
+    --color-bg: #______;
+
+    --color-text: #______;
+    --radius: 8px;
+    --space: 1rem;
+}
+
+css
+@media (max-width: 768px) {
+    /* menú colapsado, tablas en tarjetas, etc. */
+}
+
+:root {
+    --verde-olivo: #526747;
+    --crema: #F5F0E5;
+    --terracota: #B87945;
+    --blanco: #FFFFFF;
+    --verde-oscuro: #293528;
+    --gris-verdoso: #64705D;
+}
+
+/* Fondo general */
+body {
+    background-color: var(--crema);
+    color: var(--verde-oscuro);
+}
+
+/* Encabezado */
+header {
+    background-color: var(--verde-olivo);
+    color: var(--blanco);
+}
+
+/* Tarjetas */
+.card {
+    background-color: var(--blanco);
+    border-radius: 10px;
+}
+
+/* Botón principal */
+.btn-primary {
+    background-color: var(--verde-olivo);
+    color: var(--blanco);
+}
+
+/* Botón secundario */
+.btn-secondary {
+    background-color: var(--terracota);
+    color: var(--blanco);
+}
+
+/* Textos secundarios */
+.text-secondary {
+    color: var(--gris-verdoso);
+}
