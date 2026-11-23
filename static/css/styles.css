@@ -1,17 +1,4 @@
-:root {
-    --color-primary: #______;
-    --color-secondary: #______;
-    --color-bg: #______;
 
-    --color-text: #______;
-    --radius: 8px;
-    --space: 1rem;
-}
-
-css
-@media (max-width: 768px) {
-    /* menú colapsado, tablas en tarjetas, etc. */
-}
 
 :root {
     --verde-olivo: #526747;
